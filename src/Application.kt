@@ -1,5 +1,6 @@
 import dai.kotlin.learn.IApps
 import dai.kotlin.learn.basics.*
+import dai.kotlin.learn.oop.Classes
 
 fun main(args: Array<String>) {
     println("---------------------------------------------------")
@@ -37,6 +38,12 @@ fun main(args: Array<String>) {
     println("")
 
     app = Functions()
+    app.main(args)
+
+    println("")
+    println("")
+
+    app = Classes()
     app.main(args)
 
 
